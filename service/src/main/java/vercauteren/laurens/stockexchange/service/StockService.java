@@ -1,11 +1,13 @@
 package vercauteren.laurens.stockexchange.service;
 
+import org.springframework.stereotype.Component;
 import vercauteren.laurens.stockexchange.domain.Stock;
 import vercauteren.laurens.stockexchange.domain.StockCurrency;
 import vercauteren.laurens.stockexchange.domain.StockPrice;
 import vercauteren.laurens.stockexchange.domain.StockRepository;
 import vercauteren.laurens.stockexchange.interfaces.ExternalStockInformationService;
 
+@Component
 public class StockService {
 
 	public static Stock getStock(String stockId) {

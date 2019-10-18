@@ -18,9 +18,9 @@ public class StockDto {
 	@Override
 	public String toString() {
 		return String.format("o-------o\n| Stock |\no-------o\n" +
-				"ID: %s\n" +
-				"Name: %s\n" +
-				"Price: %s",
+						"ID: %s\n" +
+						"Name: %s\n" +
+						"Price: %s",
 				id, name, price);
 	}
 }

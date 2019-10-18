@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: vercauteren.laurens.stockexchange.api.StockExchangeControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in vercauteren.laurens.stockexchange.api.StockExchangeControllerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in vercauteren.laurens.stockexchange.api.StockExchangeControllerTest

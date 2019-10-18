@@ -7,12 +7,12 @@ import java.util.Random;
 
 public class ExternalStockInformationService {
 
-	public static BigDecimal getPriceInEuroForStock(String stockId){
+	public static BigDecimal getPriceInEuroForStock(String stockId) {
 		return generateRandomBigDecimalBetween10and100(new Random());
 	}
 
-	private static BigDecimal generateRandomBigDecimalBetween10and100(Random random){
-		return new BigDecimal(RandomUtils.nextDouble(10,100));
+	private static BigDecimal generateRandomBigDecimalBetween10and100(Random random) {
+		return new BigDecimal(RandomUtils.nextDouble(10, 100));
 	}
 
 }
