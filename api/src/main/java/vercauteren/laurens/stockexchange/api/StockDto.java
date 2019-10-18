@@ -5,15 +5,17 @@ import vercauteren.laurens.stockexchange.domain.StockPrice;
 
 public class StockDto {
 
-	private final String id;
-	private final String name;
-	private StockPrice price;
+	public final String id;
+	public final String name;
+	public String  price;
 
 	public StockDto(Stock stock) {
 		this.id = stock.getId();
 		this.name = stock.getName();
-		this.price = stock.getPrice();
+		this.price = stock.getPrice().toString();
 	}
+
+
 
 	@Override
 	public String toString() {

@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
+        <module name="domain" />
         <module name="jar" />
         <module name="interfaces" />
         <module name="service" />
-        <module name="domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
