@@ -31,7 +31,7 @@
         <junit-jupiter.version>5.5.2</junit-jupiter.version>
         <guava.version>28.1-jre</guava.version>
         <commons-lang3.version>3.9</commons-lang3.version>
-        <spring-boot-starter.version>2.2.0.RELEASE</spring-boot-starter.version>
+        <spring-boot-starter.version>2.5.12</spring-boot-starter.version>
     </properties>
 
     <dependencies>
